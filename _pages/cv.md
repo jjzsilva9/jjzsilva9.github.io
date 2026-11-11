@@ -1,12 +1,13 @@
 ---
-layout: cv
+layout: page
 permalink: /cv/
 title: cv
 nav: true
-nav_order: 4
-cv_pdf: /assets/pdf/cv.pdf # add your CV as assets/pdf/cv.pdf
-cv_format: rendercv # options: rendercv, jsonresume
-description: Education, experience and skills. Download the full CV as a PDF using the button on the right.
-toc:
-  sidebar: left
+nav_order: 3
 ---
+
+<p><a href="/assets/pdf/cv.pdf">Download CV (PDF)</a></p>
+
+<object data="/assets/pdf/cv.pdf" type="application/pdf" style="width: 100%; height: 85vh; border: 0;">
+  <p>Your browser can't display the PDF here. <a href="/assets/pdf/cv.pdf">Download it instead.</a></p>
+</object>

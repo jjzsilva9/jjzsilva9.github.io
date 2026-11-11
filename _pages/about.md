@@ -2,16 +2,18 @@
 layout: about
 title: about
 permalink: /
-subtitle: Research Assistant, <a href='https://www.cl.cam.ac.uk/research/rainbow/'>Rainbow Group</a>, <a href='https://www.cam.ac.uk/'>University of Cambridge</a>
+subtitle: Research Assistant at the <a href='https://www.cam.ac.uk/'>University of Cambridge</a>
 
 profile:
   align: right
   image: prof_pic.png
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Cambridge, UK</p>
+    <p>Rainbow Group</p>
+    <p>Department of Computer Science and Technology</p>
+    <p>University of Cambridge</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # set to true once there are papers in _bibliography/papers.bib marked selected={true}
 social: true # includes social icons at the bottom of the page
 
 announcements:
@@ -21,10 +23,12 @@ latest_posts:
   enabled: false
 ---
 
-I'm a Research Assistant in the [Rainbow Group](https://www.cl.cam.ac.uk/research/rainbow/) at the University of Cambridge, supervised by [Rafał Mantiuk](https://www.cl.cam.ac.uk/~rkm38/), working on **quality metrics for stereoscopic video**. More broadly, I'm interested in computer graphics, animation, image and video processing, and AI.
+I'm a Research Assistant in the [Rainbow Group](https://www.cl.cam.ac.uk/research/rainbow/) at the University of Cambridge, working with [Rafał Mantiuk](https://www.cl.cam.ac.uk/~rkm38/) on perceptual quality metrics for stereoscopic video.
 
-I hold an MSc in Computer Science (Augmented and Virtual Reality) with Distinction from [Trinity College Dublin](https://www.tcd.ie/), where I worked on real-time rendering, including [voxel cone tracing for global illumination](/projects/voxel-cone-tracing/), as well as animation, extended reality and video engineering. Before that I graduated with First Class Honours in Computer Science from the [University of York](https://www.york.ac.uk/), receiving the BCS award for the second-highest average mark in my cohort. My final-year project, carried out with AMD, predicted player viewpoint motion to enable speculative rendering in cloud gaming. I presented it at the 2025 AMD Global Technical Authors Conference, an internal AMD conference, where it won second place in its category.
+I'm interested in visual computing for media and immersive experiences: how people perceive images and video, and how that understanding can inform **quality metrics, compression, HDR and displays, graphics, and generative content**.
 
-In industry, I've worked on tools for Dolby Vision 2 as an image processing intern at Dolby Laboratories, and spent two summers as a software engineering intern at Microsoft in Azure.
+Before Cambridge, I completed an MSc in Computer Science (Augmented and Virtual Reality) with Distinction at [Trinity College Dublin](https://www.tcd.ie/). My dissertation, supervised by [Rachel McDonnell](https://www.scss.tcd.ie/Rachel.McDonnell/), used diffusion models to generate diverse clothing textures for 3D crowds. I did my undergraduate degree in Computer Science at the [University of York](https://www.york.ac.uk/), graduating with First Class Honours and the BCS award for the second-highest mark in my cohort. My final-year project with AMD predicted player viewpoint motion for cloud gaming and used the predictions to guide the video encoder. It won second place in its stream at the AMD Global Technical Authors Conference 2025.
 
-Take a look at my [projects](/projects/), [publications](/publications/) and [CV](/cv/), or get in touch by email.
+I've also worked as an image processing intern at Dolby, building tools for Dolby Vision 2, and as a software engineering intern at Microsoft Azure.
+
+You can find my [projects](/projects/) and [CV](/cv/) here, or get in touch by email.

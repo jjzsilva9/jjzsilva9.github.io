@@ -1,4 +1,4 @@
-# Joe Silva — academic website
+# Joseph Silva — academic website
 
 Personal academic portfolio built with [al-folio](https://github.com/alshedivat/al-folio) (Jekyll, MIT licence) and hosted on GitHub Pages at <https://jjzsilva9.github.io>.
 
@@ -7,9 +7,9 @@ Personal academic portfolio built with [al-folio](https://github.com/alshedivat/
 | What                         | File                                                                 |
 | ---------------------------- | -------------------------------------------------------------------- |
 | Bio, photo, headline         | `_pages/about.md`, `assets/img/prof_pic.png`                         |
-| Publications                 | `_bibliography/papers.bib` (thumbnails in `assets/img/publication_preview/`) |
+| Publications (currently off) | `_bibliography/papers.bib`; restore `_pages/publications.md` from al-folio to show the page |
 | Projects                     | one Markdown file per project in `_projects/` (images in `assets/img/projects/`) |
-| CV page                      | `_data/cv.yml` (RenderCV format); PDF download at `assets/pdf/cv.pdf` |
+| CV page                      | `assets/pdf/cv.pdf` (shown on /cv/ by `_pages/cv.md`) |
 | Social links                 | `_data/socials.yml`                                                  |
 | Site name, URL, features     | `_config.yml`                                                        |
 | News items (optional)        | add files to `_news/` and set `announcements.enabled: true` in `_pages/about.md` |

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: viewpoint motion prediction
-description: Predicting player movement to enable speculative rendering in cloud gaming (with AMD)
+description: Predicting player viewpoint motion for cloud gaming, and using it to guide the video encoder (BEng project with AMD)
 img: assets/img/projects/viewpoint_qpmap.png
 importance: 1
 category: research
@@ -9,10 +9,10 @@ category: research
 
 <p>
 <a href="https://github.com/jjzsilva9/viewpoint-prediction">Code</a> ·
-<a href="https://github.com/jjzsilva9/viewpoint-prediction/blob/main/Final_Year_Project%20(5).pdf">Paper (PDF)</a>
+<a href="https://github.com/jjzsilva9/viewpoint-prediction/blob/main/Final_Year_Project%20(5).pdf">Report (PDF)</a>
 </p>
 
-My final-year research project at the University of York, completed in partnership with AMD. It received a mark of 82% and was presented at the **2025 AMD Global Technical Authors Conference** (an internal AMD conference), where it won **second place** in its category.
+My final-year research project at the University of York, completed in partnership with AMD. It received a mark of 82% and was presented at the **2025 AMD Global Technical Authors Conference**, where it won **second place** in its stream.
 
 Cloud gaming adds a network round trip between a player's input and the frame they see. If we can predict where the player's viewpoint will move, the server can render and deliver those frames ahead of time. This project builds predictive models trained on speedruns of _Doom_, and uses the predictions to help the video encoder too.
 

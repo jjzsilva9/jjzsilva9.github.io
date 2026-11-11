@@ -3,13 +3,13 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: Joe
+first_name: Joseph
 middle_name:
 last_name: Silva
 contact_note: >
   Email is the best way to reach me.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Joe Silva — research in computer graphics, animation, image and video processing, and AI.
+  Joseph Silva — Research Assistant at the University of Cambridge working on visual computing for media and immersive experiences.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -135,7 +135,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Joe Silva # blog_name will be displayed in your blog page
+blog_name: Joseph Silva # blog_name will be displayed in your blog page
 blog_description: notes and updates
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
@@ -683,7 +683,7 @@ third_party_libraries:
 # Get external JSON data
 # -----------------------------------------------------------------------------
 
-jekyll_get_json: [] # CV uses _data/cv.yml (rendercv format), so no JSON resume is fetched
+jekyll_get_json: [] # no JSON resume; the CV page shows assets/pdf/cv.pdf
 
 jsonresume:
   - basics

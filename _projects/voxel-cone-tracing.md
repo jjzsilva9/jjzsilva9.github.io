@@ -1,9 +1,9 @@
 ---
 layout: page
 title: voxel cone tracing
-description: Real-time global illumination in Sponza with a sparse voxel octree (C++/OpenGL)
+description: Real-time global illumination with a sparse voxel octree (MSc coursework, C++/OpenGL)
 img: assets/img/projects/vct.jpg
-importance: 1
+importance: 2
 category: graphics
 ---
 
