@@ -1,0 +1,6 @@
+# Venue abbreviations shown as badges next to publications. Format:
+# "ABBR":
+#   url: https://...
+#   color: "#hex"
+"AMD GTAC":
+  color: "#ed1c24"

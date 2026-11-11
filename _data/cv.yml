@@ -1,0 +1,119 @@
+# CV data in RenderCV format, rendered on /cv/.
+cv:
+  name: Joe Silva
+  label: Research Assistant, Rainbow Group, University of Cambridge
+  email: jjs93@cam.ac.uk
+  location: Cambridge, UK
+  summary: Researching quality metrics for stereoscopic video. Interested in computer graphics, animation, image and video processing, and AI.
+
+  social_networks:
+    - network: GitHub
+      username: jjzsilva9
+    - network: LinkedIn
+      username: jjzsilva
+
+  sections:
+    Education:
+      - institution: Trinity College Dublin
+        location: Dublin, Ireland
+        url: https://www.tcd.ie/
+        area: Computer Science (Augmented and Virtual Reality)
+        studyType: MSc
+        start_date: 2025
+        end_date: 2026
+        score: Distinction
+        highlights:
+          - "Specialised in computer vision and graphics: Real-Time Rendering, Real-Time Animation, Computer Graphics, Motion Picture Engineering and Computer Vision."
+          - "Class Representative for the AR/VR stream."
+
+      - institution: University of York
+        location: York, UK
+        url: https://www.york.ac.uk/
+        area: Computer Science
+        studyType: BEng
+        start_date: 2022-09
+        end_date: 2025-06
+        score: First Class Honours (79%)
+        highlights:
+          - "BCS award for the second-highest average mark in the cohort."
+          - "Final-year project with AMD on viewpoint motion prediction for cloud gaming (82%), published at the 2025 AMD Global Technical Authors Conference."
+          - "Captain of Heslington East Volleyball; Web Officer for Constantine College."
+
+    Experience:
+      - company: Rainbow Group, University of Cambridge
+        position: Research Assistant
+        location: Cambridge, UK
+        url: https://www.cl.cam.ac.uk/research/rainbow/
+        start_date: 2026-11
+        summary: Quality metrics for stereoscopic (3D) video, supervised by Rafał Mantiuk.
+
+      - company: Dolby Laboratories
+        position: Image Processing Intern
+        location: Dublin, Ireland
+        start_date: 2026-05
+        end_date: 2026-11
+        summary: Developed tools to support Dolby Vision 2.
+        highlights:
+          - "Developed in C++ and Halide, with testing in pytest."
+
+      - company: Microsoft (Azure Edge and Platform)
+        position: Software Engineer Intern
+        location: London, UK
+        start_date: 2025-06
+        end_date: 2025-09
+        summary: Observability team for Azure Operator Nexus.
+        highlights:
+          - "Developed and tested in Go and Ginkgo, on Kubernetes and Helm."
+          - "Worked with Prometheus, Telegraf and Grafana for monitoring and visualisation."
+
+      - company: Microsoft (Azure for Operators)
+        position: Software Engineer Intern
+        location: Edinburgh, UK
+        start_date: 2024-07
+        end_date: 2024-09
+        highlights:
+          - "Developed a new installation process for a cloud-native distributed storage solution, cutting deployment time by 10×."
+          - "Rewrote a deprecated Pub/Sub system to use S3 bucket notifications, eliminating over 99% of CVEs."
+
+    Awards:
+      - title: "2nd Place, AMD Global Technical Authors Conference"
+        date: 2025
+        awarder: AMD
+        summary: For "A Quantitative Study of the Extent to Which Region-of-Interest Can Be Used for Viewpoint Motion Prediction".
+
+      - title: BCS Award
+        date: 2025
+        awarder: BCS, The Chartered Institute for IT
+        summary: For the second-highest average mark across the Computer Science cohort at the University of York.
+
+    Publications:
+      - title: A Quantitative Study of the Extent to Which Region-of-Interest Can Be Used for Viewpoint Motion Prediction
+        authors:
+          - Joe Silva
+          - Thomas Oliver
+          - William Smith
+        publisher: AMD Global Technical Authors Conference
+        releaseDate: 2025
+        url: https://github.com/jjzsilva9/viewpoint-prediction
+
+    Skills:
+      - name: Graphics
+        icon: fa-solid fa-cube
+        keywords: "C++, OpenGL, GLSL, Unreal Engine 5, Unity (XR Interaction Toolkit)"
+      - name: Image & video
+        icon: fa-solid fa-film
+        keywords: "Halide, H.264, H.265/HEVC, AV1, VMAF/PSNR quality evaluation"
+      - name: Machine learning & vision
+        icon: fa-solid fa-brain
+        keywords: "Python, PyTorch, NumPy, SciPy, OpenCV"
+      - name: Infrastructure
+        icon: fa-solid fa-server
+        keywords: "Go, Kubernetes, Helm, Prometheus, Grafana"
+      - name: Other
+        icon: fa-solid fa-code
+        keywords: "C, C#, Java, ROS 2 / Nav2, pytest, Git"
+
+    Interests:
+      - name: Research interests
+        icon: fa-solid fa-tag
+        keywords: "Video quality metrics, stereoscopic video, real-time rendering, animation, image and video processing, extended reality, AI"
