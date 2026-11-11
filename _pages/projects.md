@@ -2,10 +2,9 @@
 layout: page
 title: projects
 permalink: /projects/
-description: Research and coursework projects in graphics, vision, XR and machine learning.
+description: Selected research projects in graphics, vision and video.
 nav: true
 nav_order: 2
-display_categories: [research, graphics, interactive, robotics]
 horizontal: false
 ---
 

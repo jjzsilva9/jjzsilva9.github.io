@@ -36,7 +36,7 @@ cv:
         score: First Class Honours (79%)
         highlights:
           - "BCS award for the second-highest average mark in the cohort."
-          - "Final-year project with AMD on viewpoint motion prediction for cloud gaming (82%), published at the 2025 AMD Global Technical Authors Conference."
+          - "Final-year project with AMD on viewpoint motion prediction for cloud gaming (82%), presented at the 2025 AMD Global Technical Authors Conference (internal)."
           - "Captain of Heslington East Volleyball; Web Officer for Constantine College."
 
     Experience:
@@ -92,7 +92,7 @@ cv:
           - Joe Silva
           - Thomas Oliver
           - William Smith
-        publisher: AMD Global Technical Authors Conference
+        publisher: AMD Global Technical Authors Conference (internal)
         releaseDate: 2025
         url: https://github.com/jjzsilva9/viewpoint-prediction
 
