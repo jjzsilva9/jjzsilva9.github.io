@@ -63,7 +63,8 @@ permissions:
 jobs:
   deploy:
     # available images: https://github.com/actions/runner-images#available-images
-    runs-on: ubuntu-latest
+    # Pinned: ubuntu-latest moved to 26.04 in Oct 2026, which broke the Ruby setup and apt mirrors
+    runs-on: ubuntu-24.04
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v7
@@ -93,7 +94,14 @@ jobs:
           value: ${{ github.repository }}
       - name: Install and Build 🔧
         run: |
-          sudo apt-get update && sudo apt-get install -y imagemagick
+          # Skip apt if ImageMagick is already on the runner image; otherwise retry flaky mirror fetches
+          if ! command -v convert >/dev/null 2>&1; then
+            for attempt in 1 2 3; do
+              sudo apt-get update && sudo apt-get install -y imagemagick && break
+              echo "apt attempt $attempt failed, retrying in 20s"; sleep 20
+            done
+            command -v convert >/dev/null 2>&1 || { echo "ImageMagick install failed"; exit 1; }
+          fi
           pip3 install --upgrade nbconvert
           export JEKYLL_ENV=production
           bundle exec jekyll build
