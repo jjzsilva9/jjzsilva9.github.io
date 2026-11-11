@@ -6,12 +6,16 @@ subtitle: Research Assistant at the <a href='https://www.cam.ac.uk/'>University 
 
 profile:
   align: right
-  image: prof_pic.png
+  image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Rainbow Group</p>
     <p>Department of Computer Science and Technology</p>
     <p>University of Cambridge</p>
+    <p style="margin-top: 0.75rem;"><i class="fa-solid fa-envelope"></i>&nbsp;<a href="mailto:jjs93@cam.ac.uk">jjs93@cam.ac.uk</a></p>
+    <p><i class="fa-brands fa-github"></i>&nbsp;<a href="https://github.com/jjzsilva9">github.com/jjzsilva9</a></p>
+    <p><i class="fa-brands fa-linkedin"></i>&nbsp;<a href="https://www.linkedin.com/in/jjzsilva/">linkedin.com/in/jjzsilva</a></p>
+    <p><i class="fa-solid fa-file-pdf"></i>&nbsp;<a href="/assets/pdf/cv.pdf">CV (PDF)</a></p>
 
 selected_papers: false # set to true once there are papers in _bibliography/papers.bib marked selected={true}
 social: true # includes social icons at the bottom of the page

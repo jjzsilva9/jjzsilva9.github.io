@@ -19,3 +19,6 @@ vendor
 # Python bytecode from bin/ helper scripts
 __pycache__/
 *.pyc
+
+# Original full-size photo (the cropped version is assets/img/prof_pic.jpg)
+assets/img/IMG_2079.jpg

@@ -6,7 +6,7 @@ Personal academic portfolio built with [al-folio](https://github.com/alshedivat/
 
 | What                         | File                                                                 |
 | ---------------------------- | -------------------------------------------------------------------- |
-| Bio, photo, headline         | `_pages/about.md`, `assets/img/prof_pic.png`                         |
+| Bio, photo, headline         | `_pages/about.md`, `assets/img/prof_pic.jpg`                         |
 | Publications (currently off) | `_bibliography/papers.bib`; restore `_pages/publications.md` from al-folio to show the page |
 | Projects                     | one Markdown file per project in `_projects/` (images in `assets/img/projects/`) |
 | CV page                      | `assets/pdf/cv.pdf` (shown on /cv/ by `_pages/cv.md`) |
