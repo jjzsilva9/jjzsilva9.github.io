@@ -23,12 +23,12 @@ latest_posts:
   enabled: false
 ---
 
-I'm a Research Assistant in the [Rainbow Group](https://www.cl.cam.ac.uk/research/rainbow/) at the University of Cambridge, working with [Rafał Mantiuk](https://www.cl.cam.ac.uk/~rkm38/) on perceptual quality metrics for stereoscopic video.
+I'm a Research Assistant in the [Rainbow Group](https://www.cl.cam.ac.uk/research/rainbow/) at the University of Cambridge, working with [Rafał Mantiuk](https://www.cl.cam.ac.uk/~rkm38/) on perceptual quality metrics for stereoscopic video, in collaboration with Meta Reality Labs.
 
-I'm interested in visual computing for media and immersive experiences: how people perceive images and video, and how that understanding can inform **quality metrics, compression, HDR and displays, graphics, and generative content**.
+I'm interested in image and video - including everything from quality, compression, and displays, to scene understanding, and neural and inverse rendering.
 
 Before Cambridge, I completed an MSc in Computer Science (Augmented and Virtual Reality) with Distinction at [Trinity College Dublin](https://www.tcd.ie/). My dissertation, supervised by [Rachel McDonnell](https://www.scss.tcd.ie/Rachel.McDonnell/), used diffusion models to generate diverse clothing textures for 3D crowds. I did my undergraduate degree in Computer Science at the [University of York](https://www.york.ac.uk/), graduating with First Class Honours and the BCS award for the second-highest mark in my cohort. My final-year project with AMD predicted player viewpoint motion for cloud gaming and used the predictions to guide the video encoder. It won second place in its stream at the AMD Global Technical Authors Conference 2025.
 
 I've also worked as an image processing intern at Dolby, building tools for Dolby Vision 2, and as a software engineering intern at Microsoft Azure.
 
-You can find my [projects](/projects/) and [CV](/cv/) here, or get in touch by email.
+**I'm currently looking for PhD positions and funding to start in 2027.** If you think I'd be a good fit for your group, please get in touch by email. You can also find my [projects](/projects/) and [CV](/cv/) here.
