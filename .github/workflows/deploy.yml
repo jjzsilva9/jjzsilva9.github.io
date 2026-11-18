@@ -56,6 +56,12 @@ on:
       - "!docs/INSTALL.md"
       - "!README.md"
   workflow_dispatch:
+  # Rebuild daily so the CV picks up new releases of jjzsilva9/resume
+  schedule:
+    - cron: "0 6 * * *"
+  # Lets the resume repo trigger an immediate rebuild after it publishes a release
+  repository_dispatch:
+    types: [resume-updated]
 
 permissions:
   contents: write
@@ -92,6 +98,11 @@ jobs:
           valueFile: "_config.yml"
           propertyPath: "giscus.repo"
           value: ${{ github.repository }}
+      - name: Fetch latest CV 📄
+        run: |
+          mkdir -p assets/pdf
+          curl -fsSL --retry 3 -o assets/pdf/cv.pdf https://github.com/jjzsilva9/resume/releases/latest/download/resume.pdf
+          head -c 4 assets/pdf/cv.pdf | grep -q '%PDF' || { echo "Downloaded CV is not a PDF"; exit 1; }
       - name: Install and Build 🔧
         run: |
           # Skip apt if ImageMagick is already on the runner image; otherwise retry flaky mirror fetches

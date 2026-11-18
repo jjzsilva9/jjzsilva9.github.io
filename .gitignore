@@ -22,3 +22,6 @@ __pycache__/
 
 # Original full-size photo (the cropped version is assets/img/prof_pic.jpg)
 assets/img/IMG_2079.jpg
+
+# CV is downloaded from the jjzsilva9/resume latest release at deploy time
+assets/pdf/cv.pdf
