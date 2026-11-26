@@ -27,16 +27,21 @@ latest_posts:
   enabled: false
 ---
 
-I work on real-time graphics and how it's used in interactive media: games, XR, digital characters and streamed video. I'm a Research Assistant in the [Rainbow Group](https://www.cl.cam.ac.uk/research/rainbow/) at Cambridge, working with [Rafał Mantiuk](https://www.cl.cam.ac.uk/~rkm38/) on a quality metric for stereoscopic video with Meta Reality Labs, and co-supervising a student project on rendering clouds in real time. Before that, I predicted how players move their viewpoint in cloud games, so a server could render ahead and the video encoder could spend bits on what stays in view.
+I'm interested in real-time graphics, interactive media, and machine learning.
 
-### research interests
+I'm currently a Research Assistant in the [Rainbow Group](https://www.cl.cam.ac.uk/research/rainbow/) at the University of Cambridge, working with [Rafał Mantiuk](https://www.cl.cam.ac.uk/~rkm38/) on perceptual quality metrics for stereoscopic video, in collaboration with Meta Reality Labs.
 
-- **Real-time graphics:** fast rendering and approximations of light transport (global illumination, participating media), and neural scene representations.
-- **Interactive media:** games, XR and digital characters; how players behave and how characters move; how rendered and streamed video looks on real displays (quality, compression, HDR).
-- **Machine learning:** predicting player behaviour, generative models for 3D content, and world models for games.
+Before Cambridge, I completed an MSc in Computer Science (Augmented and Virtual Reality) with Distinction at [Trinity College Dublin](https://www.tcd.ie/). My dissertation, supervised by [Rachel McDonnell](https://www.scss.tcd.ie/Rachel.McDonnell/), used diffusion models to generate diverse clothing textures for 3D crowds. I did my undergraduate degree in Computer Science at the [University of York](https://www.york.ac.uk/), graduating with First Class Honours and the BCS award for the second-highest mark in my cohort. My final-year project with AMD predicted player viewpoint motion for cloud gaming and used the predictions to guide the video encoder. It won second place in its stream at the AMD Global Technical Authors Conference 2025.
 
-### background
+I've also worked as an image processing intern at Dolby, building tools for Dolby Vision 2, and completed two software engineering internships at Microsoft.
 
-I did an MSc in Computer Science (Augmented and Virtual Reality) at [Trinity College Dublin](https://www.tcd.ie/), graduating with Distinction; my dissertation with [Rachel McDonnell](https://www.scss.tcd.ie/Rachel.McDonnell/) used diffusion models to give 3D crowds diverse clothing. Before that I studied Computer Science at the [University of York](https://www.york.ac.uk/), graduating with First Class Honours and the BCS award. I've also worked on Dolby Vision 2 tooling at Dolby, and completed two software engineering internships at Microsoft.
+**I'm currently looking for PhD positions and funding to start in 2027.** If you think I'd be a good fit for your group, please get in touch by email. You can also find my [projects](/projects/) and [CV](/cv/) here.
 
-**I'm looking for PhD positions starting in 2027.** If you think I'd be a good fit for your group, please get in touch by email. You can also find my [projects](/projects/) and [CV](/cv/) here.
+### fun facts
+
+{% assign ff = site.data.fun_facts %}
+
+- I have {{ ff.platinums }} PlayStation platinum trophies (at the time of writing).
+{% if ff.books_read %}- I've read {{ ff.books_read }} books in {{ ff.books_year }}{% if ff.current_book %}, and I'm currently reading [_{{ ff.current_book }}_]({{ ff.current_book_url }}) by {{ ff.current_book_author }}{% endif %}.
+{% elsif ff.current_book %}- I'm currently reading [_{{ ff.current_book }}_]({{ ff.current_book_url }}) by {{ ff.current_book_author }}.
+{% endif %}

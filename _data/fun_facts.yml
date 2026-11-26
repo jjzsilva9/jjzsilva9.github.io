@@ -1,0 +1,9 @@
+# Shown in the "fun facts" list on the home page.
+# platinums is set by hand. The Goodreads fields are refreshed at deploy time by
+# bin/update_fun_facts.py; if a fetch fails, the values below are kept.
+platinums: 16
+books_read: 21
+books_year: 2026
+current_book: "Tender Is the Night"
+current_book_author: "F. Scott Fitzgerald"
+current_book_url: "https://www.goodreads.com/book/show/24290906-tender-is-the-night"
