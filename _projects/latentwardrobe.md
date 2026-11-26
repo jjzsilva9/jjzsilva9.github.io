@@ -2,7 +2,7 @@
 layout: page
 title: LatentWardrobe
 description: Diffusion-based texture generation to diversify clothing on 3D crowds (MSc dissertation)
-importance: 0
+importance: 3
 category: research
 # img: assets/img/projects/latentwardrobe.png  # add a teaser image and uncomment to show it on the projects card
 ---

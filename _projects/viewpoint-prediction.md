@@ -3,7 +3,7 @@ layout: page
 title: viewpoint motion prediction
 description: Predicting player viewpoint motion for cloud gaming, and using it to guide the video encoder (BEng project with AMD)
 img: assets/img/projects/viewpoint_qpmap.png
-importance: 1
+importance: 0
 category: research
 ---
 
@@ -12,7 +12,9 @@ category: research
 <a href="https://github.com/jjzsilva9/viewpoint-prediction/blob/main/Final_Year_Project%20(5).pdf">Report (PDF)</a>
 </p>
 
-My final-year research project at the University of York, completed in partnership with AMD. It received a mark of 82% and was presented at the **2025 AMD Global Technical Authors Conference**, where it won **second place** in its stream.
+A paper based on this work is **under review at IEEE VR 2027**.
+
+My final-year research project at the University of York, completed in partnership with AMD. It was presented at the **2025 AMD Global Technical Authors Conference**, where it won **second place** in its stream.
 
 Cloud gaming adds a network round trip between a player's input and the frame they see. If we can predict where the player's viewpoint will move, the server can render and deliver those frames ahead of time. This project builds predictive models trained on speedruns of _Doom_, and uses the predictions to help the video encoder too.
 
@@ -37,14 +39,11 @@ Predicted motion tells us which pixels are likely to stay in view. Each frame's 
     </div>
 </div>
 <div class="row">
-    <div class="col-sm-6 mt-3 mt-md-0">
+    <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/projects/viewpoint_qpmap.png" title="QP map" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/projects/viewpoint_vmaf.png" title="H.265 VMAF" class="img-fluid rounded z-depth-1" %}
-    </div>
 </div>
-<div class="caption">Top: frame with reprojected point cloud. Bottom left: QP map derived from predictions. Bottom right: VMAF for H.265 encodes.</div>
+<div class="caption">Top: frame with reprojected point cloud. Bottom: QP map derived from predictions.</div>
 
 ## Results
 
