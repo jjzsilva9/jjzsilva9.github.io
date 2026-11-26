@@ -3,7 +3,7 @@ layout: page
 title: viewpoint motion prediction
 description: Predicting player viewpoint motion for cloud gaming, and using it to guide the video encoder (BEng project with AMD)
 img: assets/img/projects/viewpoint_thumb.png
-importance: 0
+importance: 3
 category: research
 ---
 

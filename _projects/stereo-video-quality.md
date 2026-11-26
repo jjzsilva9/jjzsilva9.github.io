@@ -2,7 +2,8 @@
 layout: page
 title: stereoscopic video quality
 description: A quality metric for stereoscopic video, with Meta Reality Labs (Cambridge, ongoing)
-importance: 1
+img: assets/img/projects/stereo_haploscope.jpg
+importance: 0
 category: research
 ---
 

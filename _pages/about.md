@@ -41,7 +41,7 @@ I've also worked as an image processing intern at Dolby, building tools for Dolb
 
 {% assign ff = site.data.fun_facts %}
 
-- I have {{ ff.platinums }} PlayStation platinum trophies (at the time of writing).
-{% if ff.books_read %}- I've read {{ ff.books_read }} books in {{ ff.books_year }}{% if ff.current_book %}, and I'm currently reading [_{{ ff.current_book }}_]({{ ff.current_book_url }}) by {{ ff.current_book_author }}{% endif %}.
-{% elsif ff.current_book %}- I'm currently reading [_{{ ff.current_book }}_]({{ ff.current_book_url }}) by {{ ff.current_book_author }}.
+- I enjoy PlayStation platinum trophy hunting (I currently have {{ ff.platinums }}).
+{% if ff.books_read %}- I've recently gotten back into reading: so far this year I've read {{ ff.books_read }} books{% if ff.current_book %}, and I'm currently reading [_{{ ff.current_book }}_]({{ ff.current_book_url }}) by {{ ff.current_book_author }}{% endif %}.
+{% elsif ff.current_book %}- I've recently gotten back into reading, and I'm currently reading [_{{ ff.current_book }}_]({{ ff.current_book_url }}) by {{ ff.current_book_author }}.
 {% endif %}
